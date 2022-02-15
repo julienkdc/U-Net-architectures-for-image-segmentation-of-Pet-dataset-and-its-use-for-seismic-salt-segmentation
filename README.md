@@ -1,2 +1,2 @@
-# U-Net-architectures-for-image-segmentation-of-Pet-dataset-and-its-use-for-seismic-salt-segmentation
-UNet for Pet dataset and seismic salt segmentation
+# Summary
+The codes and report in this folder provide an analysis of the use of simple U-Net and U-Net/ResNet architecture combinations for image segmentation. While the dataset first looks at the Oxford III- Pet Dataset and shows the accuracy and layer visualizations for each model, the application of this search goes further beyond. I show that shallow UNet/ResNet-50 combos perform better than simple U-Net and deeper U-Net/ResNet combos. The knowledge acquired can then be used on the "TGS Salt Segmentation Challenge" from the TGS Kaggle Competition. The resulting search shows that a shallow U-Net/ResNet-50 architecture should be attempted on the seismic dataset. It also shows that there are still a lot of learn about UNet architectures and its use in image segmentation. 
